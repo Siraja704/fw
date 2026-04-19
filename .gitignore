@@ -5,6 +5,11 @@ ravens_bike/*.ino
 build/
 *.elf
 *.bin
+# Allow shipping OTA binaries from fw/ (still optional to commit)
+!fw/ravens_bikeV*.bin
+
+# Bundled Arduino CLI (download separately; see scripts/build-firmware.ps1)
+tools/arduino-cli/
 *.map
 *.o
 *.a
