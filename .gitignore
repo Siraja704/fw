@@ -1,3 +1,6 @@
+# Local Arduino sketch — keep on your machine; OTA uses exported .bin only (see fw/ravens_bike/latest.json)
+ravens_bike/*.ino
+
 # Arduino / ESP32 build artifacts
 build/
 *.elf
